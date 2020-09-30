@@ -132,7 +132,8 @@ const ConnectAccount = (props) => {
     const notify = (text) => toast(text);
 
     async function encrypt(text) {
-        let res = await fetch('http://54.190.123.160/themes/encrypt.php', {
+        // http://54.190.123.160/themes/encrypt.php
+        let res = await fetch('https://plus91hq.ddns.net/meeting_encryption/encrypt.php', {
             method: 'POST',
             body: JSON.stringify(text)
         });
