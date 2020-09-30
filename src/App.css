@@ -42,3 +42,27 @@ table,
 td {
   border: 1px solid;
 }
+
+.flex {
+  display: flex;
+}
+
+.w20 {
+  width: 15%;
+}
+
+.logout {
+  float    : right;
+  width    : 65px;
+  font-size: 12px;
+}
+
+a {
+  color: #007bff !important;
+  cursor: pointer;
+}
+
+thead, tr {
+  height: 15px;
+  line-height: 15px;
+}
